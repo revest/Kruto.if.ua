@@ -1,0 +1,291 @@
+.window {
+    background-color:  #ffeaff;    
+    margin-top: 10px;
+    border: #9E01A3 3px solid;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.column_right, .column_left{
+    width: 205px;
+    float: left;    
+}
+
+
+.fl_l{
+    float:left;
+}
+.margin-l-10{
+    margin-left: 10px;
+}
+a{
+    color: #9E01A3;
+    text-align: justify;
+}
+
+a:hover{
+    color: #8F0070;
+    text-decoration: none;
+}
+
+#random-track-list ul{
+   width: 100%;
+   margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; 
+}
+#random-track-list li{
+    list-style-type: none;
+}
+
+#random-track-list li:hover{
+     background-color: #FFDFB0;
+}
+/************************************************************/
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;	
+    background-color: #333333;
+}
+
+
+.span-15 {
+    width:580px; 
+    margin: 4px 10px 0px 10px;
+}
+
+#mainPlayer{
+    width: 550px;
+}
+#content
+{  
+    background: #ffeaff;
+    min-height: 557px;
+    /*width: 580px;*/      
+    /*padding: 10px;*/
+
+}
+
+#sidebar
+{
+  /*  padding: 20px 20px 20px 0;*/
+}
+
+#footer
+{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #EEC8ED;
+}
+
+#logo
+{
+    padding: 10px 20px;
+    font-size: 140%;
+}
+
+#mainmenu
+{
+    background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+    padding:6px 20px 5px 20px;
+    margin:0px;
+}
+
+#mainmenu ul li
+{
+    display: inline;
+}
+
+#mainmenu ul li a
+{
+    color:#ffffff;
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+    color: #C761CF;
+    background-color:#EFF4FA;
+    text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#ED8186;
+    color:#370D06;
+    border-color:#000000;
+}
+
+div.flash-notice
+{
+    background:#ED8186;
+    color:#370D06;
+    border-color:#000000;
+}
+
+div.flash-success
+{
+    background:#BBF7B0;
+    color:#22330B;
+    border-color:#3E6017;
+}
+
+div.flash-error a
+{
+    color:#3A0E07;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #EEC8EA;
+}
+
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 2px 20px;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #E7B7E8;
+    border-left: 5px solid #AA38AD;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #BF26D0;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #9E01A3;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #9E01A3;
+}
+
+.operations li a:hover
+{
+    background: #FF80FF;
+}
+
+
+.window .header { 
+    background-color: #ff9900; 
+    padding: 2px;
+
+#header a{
+    color:  #000000; 
+}
+
+#header #title {  
+    font-weight: bold; 
+    color: #000000;
+    font-size:13px;         
+
+}
+
+
+#UserInterests_about_me{
+    min-height: 150px!important;
+}

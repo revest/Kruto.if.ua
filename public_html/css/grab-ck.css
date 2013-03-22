@@ -1,0 +1,81 @@
+#ck{
+}
+
+#ck_title{
+width:500px;
+}
+
+#ck_foot{
+height: 30px;
+background-color: #CC0000;
+color: #FFFFFF;
+}
+
+
+
+#ck_foot p{
+ color: #FFFFFF; margin-top: -5px;
+ padding-right: 5px;
+ padding-left: 5px;
+}
+
+#ck #tracks {
+  width: 100%;
+  background-color: #B5B5B5;
+}
+
+#ck #tracks .number{
+    padding: 0!important;
+    width: 40px;
+    text-align: right;
+    vertical-align: top;
+}
+
+#ck #tracks .name{
+  color: #660000;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+#ck #tracks .name a:hover{
+background-color: #FF99CC;
+}
+
+
+
+#ck .player {
+width: 400px;
+}
+
+
+#ck .butdown{
+}
+
+
+#ck #tracks a:hover{
+  background-color: #FF99CC;
+}
+
+
+#ck #tracks .cat{
+  color: #CC0000;
+  font-weight: bold;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  /*width: 70px;*/
+}
+
+#ck #tracks .treck:hover{
+  background-color: #FF99CC;
+}
+#ck #tracks .treck{
+  background-color: #EFEFEF;
+}
+
+#ck #tracks .treck2:hover{
+background-color: #FF99CC;
+}
+
+
+

@@ -1,0 +1,121 @@
+/***************************  LIST    ***************************/
+.track{
+    min-height: 78px;
+    border: 1px;
+}
+
+.track:hover{
+    background-color: #FFDFB0;
+}
+
+.track .cover img{
+    width: 70px;
+    height: 70px;
+    padding-left: 5px;    
+    padding-top: 5px;  
+}
+
+.track .data{
+    float: left;
+    padding-left: 5px;    
+    width: 465px;    
+}
+
+.track .title{
+
+    font-size: 16px;  
+    font-weight: bold;        
+
+    margin-top: 5px;
+}
+.track .title a{
+    text-decoration: none!important;
+}
+.track .title a:hover{
+    color: #820086;
+}
+.track .style{ color: #660000; font-weight:  bold;}
+
+.style-navigator{
+    background-color: white;
+    clear: both;
+}
+
+.style-navigator a:hover{
+   background-color:  #FFDFB0;
+   color:#660066;
+}
+
+.style-navigator .selected{
+    font-weight: bold;
+    font-size: +10;
+}
+
+/*********************  VIEW *****************************/
+
+.track-view{
+    padding: 10px;
+}
+
+.track-view h1{
+    font-size: 20px;
+    text-align: center;
+
+    color: #660066;
+}
+
+.track-view .cover {
+    padding-left: 75px;
+    height: 300px;
+}
+
+.track-view .cover img{
+    height: 300px;
+}
+.track-view .cover .case{
+    position: absolute;
+}
+
+.track-view .info{    
+    width: 100%;
+    margin-left: 10px;
+}
+
+.track-view .data{    
+}
+
+.track-view .files{      
+    
+}
+
+/*******************************  FORM *****************************************/
+
+.track-form .row{
+    width: 546px;
+    
+}
+/*/////////////////////////////      OTHER        */
+
+.summary{
+
+}
+
+#graber{}
+
+.track-player img{
+    width: 35px;
+    cursor: pointer;
+}
+
+.track-player img:hover{
+    border-radius: 50px;
+    box-shadow: 0 0 5px blue;
+}
+
+.track-find{
+    margin-left: 330px;
+   padding: 7px;
+}
+.track-find h3{
+    padding-top: 3px;
+}

@@ -1,0 +1,133 @@
+/* 
+    Document   : krutoPlayer
+    Created on : 09.12.2012, 15:52:39
+    Author     : Stanislaw Revko
+    Description:
+        HTML+CSS View for flash player uppod
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.clear{
+    clear: both;
+}
+
+.krutoPlayer{
+    width: 100%;
+    border: 1px solid;
+    height: 85px;
+    background-color: #6C0064;
+    color: white;
+    border-radius: 10px;
+    min-width: 280px;
+}
+
+.krutoPlayer .cover{
+    width: 80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+
+}
+
+.krutoPlayer .cover img{
+
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+
+}
+
+.krutoPlayer .info{
+    margin-left: 80px;
+    padding-right: 10px;
+}
+
+.krutoPlayer .title{
+    margin: 3px;
+    overflow: hidden;
+    font-size: 20px;
+    max-height: 22px
+}
+
+.krutoPlayer .href {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.krutoPlayer .timing{
+}
+
+.krutoPlayer .time{
+    width: 40px;
+    float: right;
+    text-align: right;
+
+}
+/*разделитель*/
+.krutoPlayer .divert{
+    float: right; width:10px; text-align: center;
+}
+.krutoPlayer .duration{
+    width: 40px;
+    float: right;
+}
+
+.krutoPlayer .timeline{
+    
+    border: 1px solid;
+    height: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    /*  background:#FFCCFF;*/
+    background:white;
+}
+
+.krutoPlayer .timeline .loaded{
+    width: 0%;
+    height: 100%;
+    background:#FFAAFF;
+    border-radius: 10px;
+}
+
+.krutoPlayer .timeline .progress{
+    background: url('http://kruto.if.ua/css/bg.gif');
+    border-radius: 10px;
+    width: 0%;
+    height: 100%;
+}
+
+.lowest{
+    margin-top: 5px;
+}
+
+
+.krutoPlayer .buttons{
+    float: left;
+
+}
+
+.krutoPlayer .buttons .pause{
+    display: none;
+}
+
+.krutoPlayer .buttons a{
+    color: white;
+}
+
+.krutoPlayer .buttons img:hover{
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 0 10px white;
+
+}
+
+
+.krutoPlayer .buttons img{
+    width: 30px;
+}

@@ -1,0 +1,103 @@
+/*
+    Document   : user-view
+    Created on : May 1, 2012, 11:48:44 PM
+    Author     : Stanislav
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+
+
+#user-page #left-col{
+    width: 236px;
+    float: left;
+}
+
+#user-page #right-col{
+    width: 300px;
+    float: left;
+}
+
+#user-page #right-col #status{
+    margin-top: 5px;
+    text-align: left;
+    max-width: 375px;
+   
+}
+
+
+#user-page #right-col #status #change{
+    font-size: 9px;
+    color: grey;
+   
+}
+
+#user-page #inf-table{
+    width: 236px;
+}
+
+#user-page #inf-table .info{
+     color: purple;
+     font-weight: bold;
+}
+
+#user-page #photo{
+    max-width: 226px;
+    min-width: 226px;
+    margin: 5px;
+}
+
+#user-page #about{
+    text-align: left;
+    margin: 5px;
+    font-style: italic;
+}
+
+
+.fl_r{
+    float: right;
+}
+
+.simple{
+    font-weight: bold;
+    font-size: 14px;
+    color: purple;
+    
+}
+
+hr{
+    color: violet;
+}
+
+.editor {
+ text-align: left;   
+ border: 1px;
+ border-color: purple!important;
+ position: absolute;
+ background-color: white;
+ border-style: groove;
+ padding: 5px;
+
+}
+
+.editor input{
+  width: 360px;
+  margin-top: 5px;
+}
+
+.editor button{  
+  margin-top: 5px;
+}
+
+.pointer{
+     cursor: pointer;
+}
